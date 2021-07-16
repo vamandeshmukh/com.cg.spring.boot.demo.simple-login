@@ -16,7 +16,7 @@ public class AppUserService {
 	@Autowired
 	private AppUserRepository repository;
 
-	private AppUser currentAppUser;
+	private AppUser currentAppUser; // access control to APIs
 
 	public AppUser login(AppUser appUser) {
 		log.info("loginService");
